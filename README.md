@@ -1,9 +1,8 @@
 # SAD-TECNOLOGIA
 
-Descrição
 Bem-vindo ao repositório de reformulação do site da SAD TECNOLOGIA! Este projeto visa modernizar a presença online da nossa empresa, aprimorando tanto a estética quanto a funcionalidade do site atual.
 
-Objetivos do Projeto:
+Objetivos do Projeto: <br>
 Redesign Visual: Criar uma interface moderna e intuitiva que reflita a identidade da SAD TECNOLOGIA e atraia nossos usuários.
 Melhoria na Experiência do Usuário: Implementar uma navegação mais fluida e accessible, garantindo que todas as informações sejam facilmente encontradas.
 Responsividade: Garantir que o site seja completamente responsivo, oferecendo uma experiência consistente em dispositivos móveis e desktops.
