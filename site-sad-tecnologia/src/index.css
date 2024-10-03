@@ -1,0 +1,107 @@
+/* Reseta as margens e padding para garantir consistência */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Definições do corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Navegação */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Seções */
+section {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px; /* Limita a largura máxima para telas maiores */
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos responsivos */
+
+/* Para dispositivos móveis (celulares) */
+@media (max-width: 768px) {
+  header {
+      padding: 10px;
+  }
+
+  nav ul li {
+      display: block;
+      text-align: center;
+      margin: 10px 0;
+  }
+
+  section {
+      margin: 10px;
+      padding: 15px;
+  }
+
+  footer {
+      padding: 15px;
+      font-size: 0.9rem;
+  }
+}
+
+/* Para tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  header {
+      padding: 15px;
+  }
+
+  nav ul li {
+      display: inline;
+      margin: 0 5px;
+  }
+
+  section {
+      margin: 15px auto;
+      padding: 20px;
+  }
+
+  footer {
+      padding: 15px;
+  }
+}
